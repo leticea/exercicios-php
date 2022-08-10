@@ -16,7 +16,7 @@
 
             }
 
-            div, p { 
+            p { 
                 border: 1px solid black;
                 margin: 10px;
                 padding: 10px;
@@ -37,20 +37,19 @@
         </form>
 
         <?php
-
-            $totais = $_GET['totais'];
-            $validos = $_GET['validos'];
-            $brancos = $_GET['brancos'];
-            $nulos = $_GET['nulos'];
-
-            $soma = $validos + $brancos + $nulos;
+         
+            
        
-            if (!empty($totais) 
-             && !empty($validos) 
-             && !empty($brancos)
-             && !empty($nulos)       
+            if (!empty($_GET['totais']) 
+             && !empty($_GET['validos']) 
+             && !empty($_GET['brancos'])
+             && !empty($_GET['nulos'])       
             ) {
-                
+                $totais = $_GET['totais'];
+                $validos = $_GET['validos'];
+                $brancos = $_GET['brancos'];
+                $nulos = $_GET['nulos'];
+                $soma = $validos + $brancos + $nulos;
 
                 if($totais >= $validos 
                 && $totais >= $brancos 
