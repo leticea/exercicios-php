@@ -35,7 +35,7 @@
 
         <?php
 
-            if(!empty($_GET['valor'])){
+            if (!empty($_GET['valor'])) {
                 $valor = $_GET['valor'];
                 if($valor > 10){
                     echo "<p>É maior que 10.";
@@ -44,9 +44,8 @@
                     echo "<p>Não é maior que 10.";
                 }
 
-            }          
-                                                
-        ?>
+            }                                                         
+       ?>
             <p>
                  <a href="../">Voltar</a>
             </p>

@@ -35,7 +35,7 @@
 
         <?php
 
-            if(!empty($_GET['valor'])){
+            if (!empty($_GET['valor'])) {
                 $valor = $_GET['valor'];
                 if($valor > 0){
                     echo "<p>É positivo.";
@@ -44,12 +44,9 @@
                     echo "<p>É negativo.";
                 }
 
-            }          
-                                                
+            }                                               
         ?>
             <p>
                  <a href="../">Voltar</a>
             </p>
-
-
 </html>
