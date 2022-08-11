@@ -40,6 +40,10 @@
             <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_15.php">Exercício 15</a></b></p><br>         
             <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_16.php">Exercício 16</a></b></p><br>         
             <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_17.php">Exercício 17</a></b></p><br>         
+            <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_18.php">Exercício 18</a></b></p><br> 
+            <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_19.php">Exercício 19</a></b></p><br>         
+            <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_20.php">Exercício 20</a></b></p><br>         
+        
         </div>    
     </body>
            
