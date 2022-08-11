@@ -35,10 +35,7 @@
             <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_10.php">Exercício 10</a></b></p><br>         
             <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_11.php">Exercício 11</a></b></p><br>         
             <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_12.php">Exercício 12</a></b></p><br>         
-
-
-
-
+            <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_13.php">Exercício 13</a></b></p><br>         
         </div>    
     </body>
            
