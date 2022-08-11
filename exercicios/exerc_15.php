@@ -26,8 +26,8 @@
         </style>
     </head>
     <body>
-            <form id="minhaForm" method="get" action="exerc_14.php">
-                Digite um valor e confira se é maior ou menor que 10: 
+            <form id="minhaForm" method="get" action="exerc_15.php">
+                Digite um valor e confira se é positivo ou negativo: 
                 <input type="text" name="valor"><br><br>                     
                 <input type="submit" value="Conferir">
             </form>
@@ -37,11 +37,11 @@
 
             if(!empty($_GET['valor'])){
                 $valor = $_GET['valor'];
-                if($valor > 10){
-                    echo "<p>É maior que 10.";
+                if($valor > 0){
+                    echo "<p>É positivo.";
                 }
                 else{
-                    echo "<p>Não é maior que 10.";
+                    echo "<p>É negativo.";
                 }
 
             }          
@@ -53,4 +53,3 @@
 
 
 </html>
-
