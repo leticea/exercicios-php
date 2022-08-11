@@ -48,6 +48,8 @@
         <p>
              <a href="../">Voltar</a>
         </p>
+    </body>
+</html>
 <?php
 
     function calcularCustoFinal($custo_fabrica)
