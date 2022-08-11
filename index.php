@@ -39,9 +39,7 @@
             <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_14.php">Exercício 14</a></b></p><br>
             <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_15.php">Exercício 15</a></b></p><br>         
             <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_16.php">Exercício 16</a></b></p><br>         
-
-         
-
+            <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_17.php">Exercício 17</a></b></p><br>         
         </div>    
     </body>
            
