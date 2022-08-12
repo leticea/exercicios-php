@@ -26,7 +26,7 @@
         </style>
     </head>
     <body>
-        <p>Verifique aqui se tem idade para votar:</p>
+        <p>Verifique aqui se tem idade para votar nas eleições:</p>
         <form id="minhaForm" method="get" action="exerc_18.php">
             Ano atual: <input type="date" name="data_atual"><br><br>
             Ano em que nasceu: <input type="date" name="data_nasc"><br><br>
@@ -53,6 +53,7 @@
      </body>
 </html>
 <?php
+
     function verificarIdade($data_nasc, $data_atual)
     {
         
@@ -67,6 +68,7 @@
             echo "<p>Pode votar.";
         }
         else {
+            
             echo "<p>Não pode votar.";
         }        
  
