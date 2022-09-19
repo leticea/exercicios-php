@@ -42,10 +42,10 @@
                 $valor_2 = $_GET['valor_2'];
 
             if($valor_1 > $valor_2){
-                echo "<p>O valor $valor_1 é maior.";
+                echo "<p>O número $valor_1 é maior.";
 
             } else {
-                echo "<p>O valor $valor_2 é maior.";
+                echo "<p>O número $valor_2 é maior.";
             }
             }                                                         
         ?>

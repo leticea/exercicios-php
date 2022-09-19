@@ -56,5 +56,5 @@
         $percentual_impostos = ($custo_fabrica * 45) / 100;
         $custo_final = $custo_fabrica + $percentual_distribuidor + $percentual_impostos;
         
-        echo "<p>O valor final do custo do carro é: R$ $custo_final.";                    
+        echo "<p>O valor final do custo do carro é de: R$ $custo_final.";                    
     }

@@ -56,7 +56,7 @@
         } 
 
        $resultado = $quantidade * $valor;
-        echo "<p>O valor total é: $resultado";
+        echo "<p>O valor total é de: R$ $resultado.";
     }
 
     

@@ -58,7 +58,7 @@
         $valor_percentual = ($salario_atual * $percentual) / 100;
         $novo_salario = $salario_atual + $valor_percentual;
 
-        echo "O novo salário é R$ $novo_salario.";                    
+        echo "<p>O novo salário é de R$ $novo_salario.";                    
     }
 
 
