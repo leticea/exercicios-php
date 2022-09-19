@@ -29,8 +29,7 @@
         <p>Converta a temperatura Fahrenheit em Celsius aqui:</p>
         <form id="minhaForm" method="get" action="exerc_12.php">
             Temperatura ºF : <input type="text" name="fahrenheit"><br><br>
-                
-             <input type="submit" value="Calcular">
+            <input type="submit" value="Calcular">
         </form>
 
         <?php

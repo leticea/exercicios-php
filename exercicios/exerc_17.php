@@ -37,17 +37,14 @@
             
             if (!empty($_GET['avaliacao_1'])
             && !empty($_GET['avaliacao_2'])
-
             ) {
                 $avaliacao_1 = $_GET['avaliacao_1'];
                 $avaliacao_2 = $_GET['avaliacao_2'];
-
                 
                 calcularMedia (
                     $avaliacao_1, 
                     $avaliacao_2
                 );
-                                  
             }               
         ?>
 
@@ -66,11 +63,10 @@
 
             echo "<p>O aluno não foi aprovado e obteve a média $media .";
 
-        }else {
+        } else {
 
             echo "<p>O aluno foi aprovado e obteve a média $media .";
         }
-
     }          
 
 

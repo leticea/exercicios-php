@@ -31,7 +31,6 @@
             Valor total de vendas: <input type="text" name="total_vendas"><br><br>
             Salário fixo: <input type="text" name="salario_fixo"><br><br>
             Valor da comissão por carro vendido: <input type="text" name="valor_carro"><br><br>
-             
             <input type="submit" value="Calcular">
         </form>
 
@@ -54,14 +53,12 @@
                     $salario_fixo, 
                     $valor_carro
                 );
-                                  
             }               
         ?>
 
         <p>
              <a href="../">Voltar</a>
         </p>
-
 </html>
 <?php
     

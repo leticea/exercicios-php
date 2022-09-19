@@ -31,14 +31,10 @@
                 Votos válidos: <input type="text" name="validos"><br><br>
                 Votos brancos: <input type="text" name="brancos"><br><br>
                 Votos nulos: <input type="text" name="nulos"><br><br>
-
-               
                 <input type="submit" value="Calcular">
         </form>
 
         <?php
-         
-            
        
             if (!empty($_GET['totais']) 
              && !empty($_GET['validos']) 
@@ -51,7 +47,7 @@
                 $nulos = $_GET['nulos'];
                 $soma = $validos + $brancos + $nulos;
 
-                if($totais >= $validos 
+                if ($totais >= $validos 
                 && $totais >= $brancos 
                 && $totais >= $nulos
                 && $totais == $soma
@@ -64,9 +60,9 @@
                         $nulos
                     );
                 }
-               
-            }                       
+            }
         ?>
+
         <p>
             <a href="../">Voltar</a>
         </p>       
@@ -84,7 +80,6 @@
         echo "<p>O valor $validos representa $votos_validos% dos eleitores.<br>";
         echo "<p>O valor $brancos representa $votos_brancos% dos eleitores.<br>";
         echo "<p>O valor $nulos representa $votos_nulos% dos eleitores.<br>";
-
     }
 
 

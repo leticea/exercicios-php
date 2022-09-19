@@ -26,13 +26,14 @@
         </style>
     </head>
     <body>
-            <p>Digite dois valores e veja em ordem crescente.</p>
-            <form id="minhaForm" method="get" action="exerc_20.php">
-                Valor 1: <input type="text" name="valor_1"><br><br>
-                Valor 2: <input type="text" name="valor_2"><br><br>
-                <input type="submit" value="Verificar">
-            </form>
+        <p>Digite dois valores e veja em ordem crescente.</p>
+        <form id="minhaForm" method="get" action="exerc_20.php">
+            Valor 1: <input type="text" name="valor_1"><br><br>
+            Valor 2: <input type="text" name="valor_2"><br><br>
+            <input type="submit" value="Verificar">
+        </form>
     </body>
+
         <?php
 
             if (!empty($_GET['valor_1']) 
@@ -41,16 +42,15 @@
                 $valor_1 = $_GET['valor_1'];
                 $valor_2 = $_GET['valor_2'];
 
-            if($valor_1 < $valor_2){
+            if ($valor_1 < $valor_2) {
                 echo "<p>Ordem: $valor_1 $valor_2";
-            }
-            else {
+
+            } else {
                 echo "<p>Ordem: $valor_2 $valor_1";
             }
-
             }
-                                                                  
         ?>
+
         <p>
             <a href="../">Voltar</a>
         </p>

@@ -27,10 +27,10 @@
     </head>
     <body> 
         <p>Calcular a média final:</p>
-         <form id="minhaForm" method="get" action="exerc_13.php">
+        <form id="minhaForm" method="get" action="exerc_13.php">
             Nota 1: <input type="text" name="nota_1"><br><br>
             Nota 2: <input type="text" name="nota_2"><br><br>
-            Nota 3: <input type="text" name="nota_3"><br><br>                      
+            Nota 3: <input type="text" name="nota_3"><br><br>
             <input type="submit" value="Calcular">
         </form>
 
@@ -49,7 +49,6 @@
                     $nota_2, 
                     $nota_3
                 );
-                                  
             }               
         ?>
 

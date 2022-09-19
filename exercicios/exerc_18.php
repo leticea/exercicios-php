@@ -34,7 +34,6 @@
         </form>
             
         <?php
-            
           
             if (!empty($_GET['data_atual'])
             && !empty($_GET['data_nasc'])) {
@@ -44,9 +43,9 @@
 
 
                 verificarIdade($data_nasc, $data_atual);             
-
             }
         ?>
+        
         <p>
             <a href="../">Voltar</a>
         </p>
@@ -56,22 +55,19 @@
 
     function verificarIdade($data_nasc, $data_atual)
     {
-        
         $idade = 16;
-
 
         list($ano_atual) = explode('-', $data_atual);
         list($ano_nasc) = explode('-', $data_nasc);
 
-        if (($ano_atual - $ano_nasc) >= $idade){
+        if (($ano_atual - $ano_nasc) >= $idade) {
           
             echo "<p>Pode votar.";
-        }
-        else {
+
+        } else {
             
             echo "<p>Não pode votar.";
         }        
- 
     }
 
 

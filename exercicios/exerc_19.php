@@ -43,13 +43,13 @@
 
             if($valor_1 > $valor_2){
                 echo "<p>O valor $valor_1 é maior.";
-            }
-            else{
+
+            } else {
                 echo "<p>O valor $valor_2 é maior.";
             }
-
             }                                                         
         ?>
+
         <p>
             <a href="../">Voltar</a>
         </p>

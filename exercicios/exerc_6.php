@@ -38,7 +38,6 @@
         <?php 
         } else { 
         ?>
-
             <form id="minhaForm" method="get" action="exerc_6.php">
                 Base: <input type="text" name="base"><br><br>
                 Altura: <input type="text" name="altura"><br><br>
@@ -50,6 +49,5 @@
             </p>
 
         <?php } ?>
-
     </body>
 </html>

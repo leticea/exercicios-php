@@ -23,7 +23,7 @@
         </style>
     </head>
     <body>
-         <div>
+        <div>
             <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_1.php">Exercício 1</a></b></p><br>
             <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_2.php">Exercício 2</a></b></p><br>
             <p><b><a href="http://localhost/exercicios-php/exercicios/exerc_3.php">Exercício 3</a><b></p><br>
@@ -46,7 +46,6 @@
         
         </div>    
     </body>
-           
 </html>
 
 

@@ -26,30 +26,29 @@
         </style>
     </head>
     <body>
-            <form id="minhaForm" method="get" action="exerc_14.php">
-                Digite um valor e confira se é maior ou menor que 10: 
-                <input type="text" name="valor"><br><br>                     
-                <input type="submit" value="Conferir">
-            </form>
+        <form id="minhaForm" method="get" action="exerc_14.php">
+            Digite um valor e confira se é maior ou menor que 10: 
+            <input type="text" name="valor"><br><br>                     
+            <input type="submit" value="Conferir">
+        </form>
     </body>
 
         <?php
 
             if (!empty($_GET['valor'])) {
                 $valor = $_GET['valor'];
-                if($valor > 10){
+                if ($valor > 10) {
                     echo "<p>É maior que 10.";
-                }
-                else{
+
+                } else {
+                    
                     echo "<p>Não é maior que 10.";
                 }
-
             }                                                         
        ?>
-            <p>
-                 <a href="../">Voltar</a>
-            </p>
-
-
+       
+        <p>
+            <a href="../">Voltar</a>
+        </p>
 </html>
 

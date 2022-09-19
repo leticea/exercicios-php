@@ -18,7 +18,7 @@
                 border: 1px solid black;
                 margin: 10px;
                 padding: 10px;
-                width: 160px;
+                width: 120px;
             }
 
         </style>
@@ -41,7 +41,6 @@
         <p>
             <a href="../">Voltar</a>
         </p>
-
     </body>
 </html>
 <?php 
@@ -56,5 +55,4 @@
         else {
             echo "$ano_nasc não é bissexto.";
         }        
- 
     }

@@ -26,9 +26,9 @@
         </style>
     </head>
     <body> 
-         <form id="minhaForm" method="get" action="exerc_16.php">
-         Descreva a quantidade das maçãs e confira o valor da compra: <input type="text" name="quantidade"><br><br>                     
-             <input type="submit" value="Calcular">
+        <form id="minhaForm" method="get" action="exerc_16.php">
+            Descreva a quantidade das maçãs e confira o valor da compra: <input type="text" name="quantidade"><br><br>                     
+            <input type="submit" value="Calcular">
         </form>
     </body>
         <?php
@@ -36,10 +36,10 @@
             if (!empty($_GET['quantidade'])) {
                 $quantidade = $_GET['quantidade'];
 
-
                 calcularValor($quantidade);          
             }                                                
         ?>
+
         <p>
              <a href="../">Voltar</a>
         </p>
@@ -57,7 +57,6 @@
 
        $resultado = $quantidade * $valor;
         echo "<p>O valor total é: $resultado";
-
     }
 
     

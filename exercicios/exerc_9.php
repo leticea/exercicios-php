@@ -29,7 +29,6 @@
         <form id="minhaForm" method="get" action="exerc_9.php">
             Salário atual: <input type="text" name="salario_atual"><br><br>          
             Percentual de reajuste: <input type="text" name="percentual"><br><br>
-
             <input type="submit" value="Calcular">
 
         </form> 

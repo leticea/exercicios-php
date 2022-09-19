@@ -37,10 +37,10 @@
             if (!empty($_GET['data'])) {
 
                 echo '<p> A idade em dias é: ' . calcularIdadeEmDias($_GET['data']) . '</p>';
-
             }
 
         ?>
+        
         <p>
             <a href="../">Voltar</a>
         </p>
@@ -59,12 +59,12 @@
 
         $idade = date("Y") - $anoNasc;
         
-        if (date("m") < $mesNasc){
+        if (date("m") < $mesNasc) {
             $idade -= 1;
-        } elseif ((date("m")== $mesNasc) && (date("d") <= $diaNasc)){
+
+        } elseif ((date("m")== $mesNasc) && (date("d") <= $diaNasc)) {
             $idade -= 1;
         }
 
         return $idade * 365;
-
     }

@@ -26,29 +26,31 @@
         </style>
     </head>
     <body>
-            <form id="minhaForm" method="get" action="exerc_15.php">
-                Digite um valor e confira se é positivo ou negativo: 
-                <input type="text" name="valor"><br><br>                     
-                <input type="submit" value="Conferir">
-            </form>
+        <form id="minhaForm" method="get" action="exerc_15.php">
+            Digite um valor e confira se é positivo ou negativo: 
+            <input type="text" name="valor"><br><br>                     
+            <input type="submit" value="Conferir">
+        </form>
     </body>
 
         <?php
 
             if (!empty($_GET['valor'])) {
                 $valor = $_GET['valor'];
-                if($valor > 0){
+                if ($valor > 0) {
+                    
                     echo "<p>É positivo.";
-                }
-                else{
+
+                } else {
+
                     echo "<p>É negativo.";
                 }
-
             }                                               
         ?>
-            <p>
-                 <a href="../">Voltar</a>
-            </p>
+        
+        <p>
+            <a href="../">Voltar</a>
+        </p>
 </html>
 
 
