@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Lista de alguns exercícios para aprendizado.
 
-[Site] dos exercícios. (https://fit.faccat.br/~fpereira/apostilas/exerc_resp_alg_mar2007.pdf)
+Site dos [exercícios] (https://fit.faccat.br/~fpereira/apostilas/exerc_resp_alg_mar2007.pdf).
 
 - Exercício 1:
 
