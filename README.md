@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;
@@ -16,7 +16,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [PHP](https://www.php.net/) 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5) 
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) 
-
 
 ## 💻 Projeto
 
