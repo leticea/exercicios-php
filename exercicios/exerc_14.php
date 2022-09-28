@@ -35,9 +35,11 @@
         <?php
 
             if (!empty($_GET['valor'])) {
+                
                 $valor = $_GET['valor'];
 
                 if ($valor > 10) {
+
                     echo "<p>É maior que 10!";
 
                 } else {

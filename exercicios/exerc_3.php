@@ -33,9 +33,9 @@
         <?php
             
             if (!empty($_GET['data'])) {
+                
                 verificarDataBissexto($_GET['data']);
             }
-
         ?>
            
         <p>
@@ -49,10 +49,12 @@
     {
         list($ano_nasc) = explode('-', $data);
        
-        if ( ($ano_nasc % 4 == 0 && $ano_nasc % 100 !=0) || $ano_nasc % 400 == 0){
+        if (($ano_nasc % 4 == 0 && $ano_nasc % 100 !=0) || $ano_nasc % 400 == 0) {
+
             echo "$ano_nasc é bissexto.";
-        }
-        else {
+
+        } else {
+
             echo "$ano_nasc não é bissexto.";
         }        
     }

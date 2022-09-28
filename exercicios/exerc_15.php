@@ -35,6 +35,7 @@
         <?php
 
             if (!empty($_GET['valor'])) {
+                
                 $valor = $_GET['valor'];
 
                 if ($valor > 0) {

@@ -27,6 +27,7 @@
         <?php
 
         if (!empty($_GET["txt_number"])) { ?>
+            
             <div>
                 <p>
                     Original: <?= $_GET["txt_number"] ?>

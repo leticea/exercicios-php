@@ -51,7 +51,6 @@
                 && $totais >= $nulos
                 && $totais == $soma
                 ) {
-                    
                     calcularPorcentagemVotos(
                         $totais,
                         $validos,

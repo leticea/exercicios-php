@@ -33,6 +33,7 @@
         <?php
 
             if (!empty($_GET['quantidade'])) {
+                
                 $quantidade = $_GET['quantidade'];
 
                 calcularValor($quantidade);          

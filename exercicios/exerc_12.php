@@ -34,6 +34,7 @@
         <?php
             
             if (!empty($_GET['fahrenheit'])) {
+                
                 $fahrenheit = $_GET['fahrenheit'];
 
                 fahrenheitParaCelsius(
