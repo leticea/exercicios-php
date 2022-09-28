@@ -27,10 +27,10 @@
     </head>
     <body>
         
-            <form id="minhaForm" method="get" action="exerc_7.php">
-                Escolha uma data: <input type="date" name="data"><br><br>
-                <input type="submit" value="Calcular">
-            </form>
+        <form id="minhaForm" method="get" action="exerc_7.php">
+            Escolha uma data: <input type="date" name="data"><br><br>
+            <input type="submit" value="Calcular">
+        </form>
             
         <?php
             

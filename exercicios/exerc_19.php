@@ -13,7 +13,6 @@
                 margin: 10px;
                 padding: 10px;
                 width: 180px;
-
             }
 
             p { 
@@ -33,6 +32,7 @@
             <input type="submit" value="Verificar">
         </form>
     </body>
+
         <?php
 
             if (!empty($_GET['valor_1']) 
@@ -41,10 +41,12 @@
                 $valor_1 = $_GET['valor_1'];
                 $valor_2 = $_GET['valor_2'];
 
-            if($valor_1 > $valor_2){
+            if ($valor_1 > $valor_2) {
+
                 echo "<p>O número $valor_1 é maior.";
 
             } else {
+
                 echo "<p>O número $valor_2 é maior.";
             }
             }                                                         

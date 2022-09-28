@@ -13,7 +13,6 @@
                 margin: 10px;
                 padding: 10px;
                 width: 240px;
-
             }
 
             p { 
@@ -30,8 +29,8 @@
             Salário atual: <input type="text" name="salario_atual"><br><br>          
             Percentual de reajuste: <input type="text" name="percentual"><br><br>
             <input type="submit" value="Calcular">
-
         </form> 
+
         <?php
             
             if (!empty($_GET['salario_atual']) 
@@ -46,6 +45,7 @@
                 );                   
             }               
         ?>
+
             <p>
                 <a href="../">Voltar</a>
             </p>
@@ -60,9 +60,3 @@
 
         echo "<p>O novo salário é de R$ $novo_salario.";                    
     }
-
-
-      
-                    
-           
-    

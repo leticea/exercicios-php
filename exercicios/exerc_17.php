@@ -13,7 +13,6 @@
                 margin: 10px;
                 padding: 10px;
                 width: 240px;
-
             }
 
             p { 
@@ -68,5 +67,3 @@
             echo "<p>O aluno foi aprovado e obteve a média $media .";
         }
     }          
-
-

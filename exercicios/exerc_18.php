@@ -13,7 +13,6 @@
                 margin: 10px;
                 padding: 10px;
                 width: 180px;
-
             }
 
             p { 
@@ -41,7 +40,6 @@
                 $data_nasc = $_GET['data_nasc'];
                 $data_atual = $_GET['data_atual'];
 
-
                 verificarIdade($data_nasc, $data_atual);             
             }
         ?>
@@ -68,7 +66,4 @@
             
             echo "<p>Não pode votar.";
         }        
-    }
-
-
-  
+    }  

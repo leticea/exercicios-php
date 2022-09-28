@@ -36,7 +36,9 @@
             </p>
 
         <?php 
+
         } else { 
+            
         ?>
             <form id="minhaForm" method="get" action="exerc_6.php">
                 Base: <input type="text" name="base"><br><br>

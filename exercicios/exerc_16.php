@@ -13,7 +13,6 @@
                 margin: 10px;
                 padding: 10px;
                 width: 240px;
-
             }
 
             p { 
@@ -58,7 +57,3 @@
        $resultado = $quantidade * $valor;
         echo "<p>O valor total é de: R$ $resultado.";
     }
-
-    
-       
-

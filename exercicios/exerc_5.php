@@ -34,14 +34,16 @@
                 <p>
                     Antecessor: <?= $_GET["txt_number"] - 1 ?>
                 </p>
-                
             </div>
+
             <p>
                 <a href="exerc_5.php">Voltar</a>
             </p>
 
         <?php 
+
         } else { 
+            
         ?>
 
             <form id="minhaForm" method="get" action="exerc_5.php">

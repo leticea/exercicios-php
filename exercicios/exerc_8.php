@@ -13,7 +13,6 @@
                 margin: 10px;
                 padding: 10px;
                 width: 240px;
-
             }
 
             p { 
@@ -80,8 +79,4 @@
         echo "<p>O valor $validos representa $votos_validos% dos eleitores.<br>";
         echo "<p>O valor $brancos representa $votos_brancos% dos eleitores.<br>";
         echo "<p>O valor $nulos representa $votos_nulos% dos eleitores.<br>";
-    }
-
-
-
-        
+    }        

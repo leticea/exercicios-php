@@ -13,7 +13,6 @@
                 margin: 10px;
                 padding: 10px;
                 width: 240px;
-
             }
 
             p { 
@@ -46,7 +45,6 @@
                 $salario_fixo = $_GET['salario_fixo'];
                 $valor_carro = $_GET['valor_carro'];
 
-                
                 calcularSalarioFinal(
                     $total_carros, 
                     $total_vendas, 

@@ -13,7 +13,6 @@
                 margin: 10px;
                 padding: 10px;
                 width: 180px;
-
             }
 
             p { 
@@ -43,9 +42,11 @@
                 $valor_2 = $_GET['valor_2'];
 
             if ($valor_1 < $valor_2) {
+
                 echo "<p>Ordem: $valor_1 $valor_2";
 
             } else {
+
                 echo "<p>Ordem: $valor_2 $valor_1";
             }
             }
