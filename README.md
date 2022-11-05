@@ -200,7 +200,7 @@ Ler dois valores (considere que não serão lidos valores iguais) e escrevê-los
 ## 🚀 Como Rodar
 
 - Clone o projeto.
-- Entre no repositório e clice duas vezes no arquivo index.html
+- Entre no repositório e click duas vezes no arquivo index.html
 
 ## 🤔 Como contribuir
 
